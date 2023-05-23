@@ -1,0 +1,21 @@
+1. 터미널 실행
+xcode-select --install
+
+2. miniconda 설치
+https://docs.conda.io/en/latest/miniconda.html
+
+bash ./Miniconda3-latest-MacOSX-arm64.sh -b -p $HOME/miniconda
+
+source ~/miniconda/bin/activate
+
+3. 환경변수 설정
+.zshrc 실행
+
+export PATH="$HOME/miniconda/bin:$PATH"
+
+source ~/.zshrc
+
+4. 설치 확인
+conda
+
+conda install tensorflow
